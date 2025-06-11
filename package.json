@@ -1,0 +1,20 @@
+{
+  "name": "device-scanner",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@abandonware/noble": "^1.9.2-26",
+    "axios": "^1.8.4",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.2",
+    "node-wifi": "^2.0.16"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
